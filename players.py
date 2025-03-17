@@ -3,9 +3,9 @@ import requests
 import asyncio
 from discord import app_commands
 
-TOKEN = "MTM1MTIwMjQxMDA2ODA1NDA4OQ.GTgvx-.EDJY04HSipRncMRHZpq-XliVncB5rkOlFw_Fqw"
+TOKEN = "TOKEN"
 SERVER_ID = "32139049"
-GUILD_ID = 1349740526282477598  # Voeg je Guild ID toe
+GUILD_ID = SERVER TOKEN  # Voeg je Guild ID toe
 API_URL = f"https://api.battlemetrics.com/servers/{SERVER_ID}"
 
 intents = discord.Intents.default()
@@ -52,4 +52,4 @@ async def serverstatus(interaction: discord.Interaction):
         await interaction.response.send_message("Er is een fout opgetreden bij het ophalen van de serverstatus.", ephemeral=True)
         print(f"Error fetching server status: {e}")
 
-client.run('MTM1MTIwMjQxMDA2ODA1NDA4OQ.GTgvx-.EDJY04HSipRncMRHZpq-XliVncB5rkOlFw_Fqw')
+client.run('MTOKENFqw')
